@@ -1,10 +1,12 @@
 const stg = 'hey'
 const num = 0
 
-const repeatString = function() {
-    for (; num > 3; num++){
-        repeatString(stg);
+const repeatString = function(stg, num) {
+    let result = "";
+    for (let i = 0; i < num; i++){
+        result += repeatString(stg);
     }
+    return result
 };
 
 // Do not edit below this line
