@@ -1,5 +1,5 @@
-const stg = 'hey'
-const num = Math.floor((Math.random()*1000)+1)
+const stg = ' '
+const num = 10
 
 const repeatString = function(stg, num) {
     let result = "";
