@@ -1,5 +1,5 @@
-const stg = 'hey'
-const num = 3
+const stg = 'hello'
+const num = 10
 
 const repeatString = function(stg, num) {
     let result = "";
