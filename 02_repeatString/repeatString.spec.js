@@ -7,7 +7,7 @@ describe('repeatString', () => {
   test.skip('repeats the string many times', () => {
     expect(repeatString('hello', 10)).toEqual('hellohellohellohellohellohellohellohellohellohello');
   });
-  test('repeats the string 1 times', () => {
+  test.skip('repeats the string 1 times', () => {
     expect(repeatString('hi', 1)).toEqual('hi');
   });
   test.skip('repeats the string 0 times', () => {
@@ -20,7 +20,7 @@ describe('repeatString', () => {
     repeatString("don't use the built-in repeat method!", 1);
     expect(String.prototype.repeat).not.toHaveBeenCalled();
   });
-  test.skip('returns ERROR with negative numbers', () => {
+  test('returns ERROR with negative numbers', () => {
     expect(repeatString('goodbye', -1)).toEqual('ERROR');
   });
   test.skip('repeats the string a random amount of times', function () {

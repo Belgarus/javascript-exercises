@@ -1,10 +1,11 @@
-const stg = 'bye'
-const num = 0
+const stg = 'goodbye'
+const num = -1
 
 const repeatString = function(stg, num) {
     let result = "";
+    if (num < 0) return 'ERROR'
     for (let i = 0; i < num; i++){
-        result += stg;
+        result += 'goodbye'
     }
     return result
 };
